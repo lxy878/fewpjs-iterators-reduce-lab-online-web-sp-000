@@ -3,5 +3,5 @@ const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
 // Code your solution here
 
 const totalBatteries = function(){
-  return batteryBatches.reduce((sum, n) => sum+n, 0)
+  return batteryBatches.reduce((sum, n) => sum+n, 0);
 }
